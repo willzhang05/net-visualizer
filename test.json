@@ -1,0 +1,49 @@
+{
+    "type": "NetworkGraph",
+    "protocol": "",
+    "version": "",
+    "metric": "",
+    "label": "Test 2",
+    "id": "e2a906de-ef66-4a9b-9585-c89deacec23d",
+    "parser": "netdiff.NetJsonParser",
+    "nodes": [
+        {
+            "id": "PTX-LR3",
+            "label": "R1",
+            "properties": {
+                "hostname": "node1.my.net"
+            }
+        },
+        {
+            "id": "PTX-LR1",
+            "label": "R2",
+            "properties": {
+                "hostname": "node2.my.net"
+            }
+        },
+        {
+            "id": "PTX-LR2",
+            "label": "R3",
+            "properties": {
+                "hostname": "node3.my.net"
+            }
+        }
+    ],
+    "links": [
+        {
+            "source": "PTX-LR3",
+            "target": "PTX-LR1",
+            "cost": 1.0
+        },
+        {
+            "source": "PTX-LR1",
+            "target": "PTX-LR2",
+            "cost": 2.0
+        },
+        {
+            "source": "PTX-LR2",
+            "target": "PTX-LR3",
+            "cost": 3.0
+        }
+    ]
+}
