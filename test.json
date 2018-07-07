@@ -31,9 +31,9 @@
     ],
     "links": [
         {
-            "source": "PTX-LR3",
-            "target": "PTX-LR1",
-            "cost": 1.0
+            "source": "PTX-LR1",
+            "target": "PTX-LR2",
+            "cost": 2.0
         },
         {
             "source": "PTX-LR1",

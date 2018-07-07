@@ -19,10 +19,9 @@ from django.contrib import admin
 from django_netjsongraph.api import urls as netjsongraph_api
 from django_netjsongraph.visualizer import urls as netjsongraph_visualizer
 
-from .apps.api import urls as api
 
 urlpatterns = [
-    url(r'^admin/', admin.site.urls),
-    url(r'^api/', include(api)),
-    url(r'', include(netjsongraph_visualizer)),
+#    url(r'^admin/', admin.site.urls),
+#    url(r'^api/', include(api)),
+    url(r'', include(netjsongraph_api)),
 ]

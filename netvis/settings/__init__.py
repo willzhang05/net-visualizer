@@ -20,7 +20,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # See https://docs.djangoproject.com/en/1.11/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = ''
+SECRET_KEY = '-bx*=8h@_y_p9#e*wlaqn19q$-u5xs6!+)@9s)fl+uj)8&epmk'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -39,7 +39,9 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'rest_framework',
     'openwisp_utils.admin_theme',
-    'django_netjsongraph'
+    'django_netjsongraph',
+    'netvis.apps.main',
+    'netvis.apps.api',
 ]
 
 MIDDLEWARE = [
