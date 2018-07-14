@@ -23,6 +23,7 @@ from .apps.api import urls as api
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
-    url(r'^api/', include(api)),
+    #url(r'^api/', include(api)),
+    url(r'^api/', include(netjsongraph_api)),
     url(r'', include(netjsongraph_visualizer)),
 ]
