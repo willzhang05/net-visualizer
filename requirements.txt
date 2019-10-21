@@ -4,7 +4,7 @@ decorator==4.3.0
 Django==2.0.6
 django-model-utils==3.1.2
 django-netjsongraph==0.4.3
-djangorestframework==3.7.7
+djangorestframework==3.9.1
 humanize==0.5.1
 idna==2.7
 jsonfield==2.0.2
