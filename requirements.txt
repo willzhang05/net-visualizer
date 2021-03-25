@@ -15,7 +15,7 @@ networkx==2.0
 openvpn-status==0.2.0
 openwisp-utils==0.2
 pytz==2018.5
-PyYAML==3.12
+PyYAML==5.4
 requests==2.19.1
 six==1.11.0
 urllib3==1.23
